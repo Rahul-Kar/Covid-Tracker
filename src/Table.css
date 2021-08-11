@@ -1,0 +1,38 @@
+.tableData {
+  margin-top: 20px;
+  overflow: scroll;
+  color: #6a5d5d;
+  background-color: white;
+  height: 400px;
+}
+
+.tableData tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tableData td {
+  padding: 0.5rem;
+  border: none;
+}
+
+.tableData tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+@media (max-width: 768px) {
+  .tableData td {
+    padding: 0.3rem;
+    border: none;
+    font-size: 0.8rem !important;
+  }
+}
+@media (max-width: 558px) {
+  .tableData {
+    height: 300px;
+  }
+}
+@media (max-width: 418px) {
+  .tableData {
+    height: 240px;
+  }
+}

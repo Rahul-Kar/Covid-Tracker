@@ -1,0 +1,112 @@
+.MuiTableRow-root td {
+  color: #6a5d5d !important;
+  background-color: white !important;
+  font-weight: 600 !important;
+}
+.MuiTableHead-root .MuiTableCell-root {
+  padding: 8.5px;
+}
+.MuiTableRow-root:hover td {
+  background-color: #f3f2f8 !important;
+  cursor: pointer !important;
+}
+.state {
+  font-weight: 400 !important;
+  color: #111 !important
+  ;
+}
+tbody tr:nth-of-type(odd) {
+  background-color: #f3f2f8 !important;
+}
+.makeStyles-root-7 h4 {
+  margin-top: -1rem !important;
+  margin-bottom: 1.3rem !important;
+  color: #6a5d5d;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+@media (max-width: 1024px) {
+  .makeStyles-root-7 {
+    max-width: 900px !important;
+    margin: auto !important;
+  }
+}
+@media (max-width: 768px) {
+  .makeStyles-root-7 {
+    max-width: 700px !important;
+    margin: auto !important;
+  }
+  .makeStyles-tableWrapper-9 {
+    height: 300px !important;
+  }
+  .MuiTableCell-root {
+    padding: 12px !important;
+    font-size: 0.7rem !important;
+  }
+  .MuiTableHead-root .MuiTableCell-root {
+    padding: 10px !important;
+    font-size: 0.75rem !important;
+  }
+}
+@media (max-width: 545px) {
+  .makeStyles-root-7 {
+    margin-top: -1rem !important;
+    padding: 25px !important;
+    max-width: 470px !important;
+    margin: auto !important;
+    margin-top: -1rem !important;
+  }
+  .makeStyles-tableWrapper-9 {
+    height: 250px !important;
+  }
+  .MuiTableCell-root {
+    padding: 9px 12px !important;
+    font-size: 0.6rem !important;
+  }
+  .MuiTableHead-root .MuiTableCell-root {
+    padding: 1px 15px !important;
+    font-size: 0.64rem !important;
+  }
+  .makeStyles-root-7 h4 {
+    margin-top: 0rem !important;
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 416px) {
+  .makeStyles-root-7 {
+    padding: 13px !important;
+    max-width: 340px !important;
+    margin: auto !important;
+    margin-top: -1rem !important;
+  }
+  .makeStyles-tableWrapper-9 {
+    height: 210px !important;
+  }
+  .MuiTableCell-root {
+    padding: 6px 14px !important;
+    font-size: 0.5rem !important;
+  }
+  .MuiTableHead-root .MuiTableCell-root {
+    padding: 0px 18px !important;
+    font-size: 0.5rem !important;
+  }
+}
+@media (max-width: 376px) {
+  .makeStyles-root-7 {
+    padding: 12px !important;
+    max-width: 320px !important;
+    margin: auto !important;
+    margin-top: -1.3rem !important;
+  }
+  .makeStyles-tableWrapper-9 {
+    height: 210px !important;
+  }
+  .MuiTableCell-root {
+    padding: 7px 13px !important;
+    font-size: 0.5rem !important;
+  }
+  .MuiTableHead-root .MuiTableCell-root {
+    padding: 1px 15px !important;
+    font-size: 0.5rem !important;
+  }
+}
